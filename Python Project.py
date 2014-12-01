@@ -42,21 +42,9 @@ player = drawpad.create_oval(35,35,65,65, fill="red")
 
 u = 'Otters sleep while holding hands.'
 v = 'Russia considers beer as a soft drink.'
-w = ' '
-x = ' '
-y = ' '
-z = ' '
-aa = ' '
-bb = ' '
-cc = ' '
-dd = ' '
-ee = ' '
-ff = ' '
-gg = ' '
-hh = ' '
-ii = ' '
 
-qList = [u,v,w,x,y,z,aa,bb,cc,dd,ee,ff,gg,hh,ii]
+
+qList = [u,v]
 
 class MyApp:
     def __init__(self,parent):
